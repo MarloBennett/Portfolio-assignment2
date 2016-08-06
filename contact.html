@@ -3,46 +3,63 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <div class="wrapper">
-<header> 
-	<section class="name">
+
+<div class="container-fluid">
+
+<div class="row">
+	
+	<div class="col-md-6">
 		<h2>Marlo Bennett</h2>
-	</section>
+	</div>
 
-	<section class="links">
-		<a href="home.html">About</a>&nbsp;&nbsp;&verbar;&nbsp;&nbsp;
-		<a href="portfolio.html">Portfolio</a>&nbsp;&nbsp;&verbar;&nbsp;&nbsp;
-		<a href="contact.html">Contact</a>
-	</section>
-</header>
+	<div class="col-md-6">
+	<nav class="navbar navbar-default">
+	<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.html">About</a>
+      <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+      <a class="navbar-brand" href="contact.html">Contact</a>
+    </div>
+    </div>
+	</nav>
+	</div>
 
-<section class="main">
+</div>
+
+<div class="row">
+
+	<div class="col-md-8">
 	<h2>Contact</h2>
 
-	<form>
+	<form class="form-horizontal">
 		Name <br />
-		<input type="text" name="name" value="John Smith"><br />
+		<input type="text" class="form-control" id="inputName" placeholder="Name"><br />
 		Email <br />
-		<input type="text" name="email" value="example@gmail.com"><br />
+		<input type="text" class="form-control" id="inputEmail" placeholder="Email"><br />
 		Message <br />
-		<textarea name="message" rows="10" cols="30"></textarea><br />
-		<input type="submit" value="Submit" class="button">
+		<textarea class="form-control" rows="3" id="textArea"></textarea><br />
+		<input type="submit" value="Submit" class="btn btn-default">
 	</form>
-</section>
+	</div>
 
-<section class="sidebar">
+	<div class="col-md-4">
 	<h3>Connect with Me</h3>
 
-	<a href="#"><img src="assets/images/GitHub.png" alt="GitHub logo" class="logo-image"></a>
+	<a href="#"><img src="assets/images/GitHub.png" alt="GitHub logo" class="logo-image" /></a>
 	<a href="#"><img src="assets/images/LinkedIn.png" alt="LinkedIn logo" class="logo-image" /></a>
 	<a href="#"><img src="assets/images/StackOverflow.png" alt="Stack Overlow logo" class="logo-image" /></a>
 
-</section>
+	</div>
+</div>
+</div>
 
 <div class="push">
 </div>

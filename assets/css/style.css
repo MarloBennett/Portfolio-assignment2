@@ -1,0 +1,294 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -80px;
+}
+
+.footer, .push {
+	height: 80px;
+}
+
+body {
+	background-color: #D0CCFB;
+	font-size: 16px;
+}
+
+h2, h3 {
+	color: #8D36FF;
+}
+
+.bio-image {
+	width: 45%;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.navbar {
+	background-color: #8D36FF;
+}
+
+.logo-image {
+	width: 50px;
+	margin: 10px;
+}
+
+footer {
+	background-color: #8D36FF;
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 9px;
+	margin-top: 20px;
+}
+
+
+/*body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url(../images/fresh_snow.png);
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: solid 1px #cccccc;
+	clear: right;
+	overflow: auto;
+}
+
+header h2 {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 125px;
+	margin-top: 0px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 150%;
+	padding-bottom: 12px;
+}
+
+header a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #cc3399;
+}
+
+header a:visited {
+	color: #cc3399;
+}
+
+h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 10px;
+	margin-top: 20px;	
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+}
+
+.name {
+	float: left;
+	width: 610px;
+	margin-left: 70px;
+	margin-right: 75px;
+}
+
+.links {
+	float: left;
+	width: 270px;	
+	margin-top: 20px;
+}
+
+.main {
+	float: left;
+	width: 610px;
+	margin: 20px 20px 20px 70px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;	
+}
+
+.port-main {
+	float: left;
+	width: 610px;
+	height: 770px;
+	margin: 20px 20px 20px 70px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;	
+}
+
+.sidebar {
+	float: left;
+	width: 175px;	
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+
+
+
+
+footer p {
+	font-size: 12px;
+}
+
+.bio-image {
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+
+
+input {
+	padding: 10px;
+	margin: 10px 0;
+	width: 580px;
+	font-size: 16px;
+}
+
+form {
+	padding-top: 20px;
+	font-size: 12px;	
+	font-size: 16px;
+}
+
+textarea {
+	padding: 10px;
+	margin: 10px 0;
+	width: 580px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 100px;
+}
+
+.port-container {
+	width: 610px;
+	position: relative;
+}
+
+.port-image-1 {
+	width: 285px;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+}
+
+.port-image-2 {
+	width: 285px;
+	position: absolute;
+	left: 320px;
+	top: 20px;
+}
+
+.port-image-3 {
+	width: 285px;
+	position: absolute;
+	left: 0px;
+	top: 260px;
+}
+
+.port-image-4 {
+	width: 285px;
+	position: absolute;
+	left: 320px;
+	top: 260px;
+}
+
+.port-image-5 {
+	width: 285px;
+	position: absolute;
+	left: 0px;
+	top: 500px;
+}
+
+.port-text-1 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 0px;
+	top: 165px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-2 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 320px;
+	top: 165px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-3 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 0px;
+	top: 405px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-4 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 320px;
+	top: 405px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-5 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 0px;
+	top: 645px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}*/
